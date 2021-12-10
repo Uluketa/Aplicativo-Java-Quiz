@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/JavaApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21614583333333334" />
+        <entry key="..\:/JavaApp/app/src/main/res/font/bungee_inline.xml" value="0.22592592592592592" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_login.xml" value="0.31911532385466035" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pergunta01.xml" value="0.25" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pergunta02.xml" value="0.25" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pergunta03.xml" value="0.33" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pergunta04.xml" value="0.18704710144927536" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pergunta05.xml" value="0.33" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pergunta06.xml" value="0.25" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pergunta07.xml" value="0.33" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pergunta08.xml" value="0.18704710144927536" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pont.xml" value="0.1" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_pontuacao.xml" value="0.1526268115942029" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_telafinal.xml" value="0.1859375" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_telafinal4e3.xml" value="0.1859375" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_telafinal6e5.xml" value="0.19701086956521738" />
+        <entry key="..\:/JavaApp/app/src/main/res/layout/activity_telafinalnotai.xml" value="0.19701086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

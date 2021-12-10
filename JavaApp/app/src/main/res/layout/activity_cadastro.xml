@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#585858"
+    tools:context=".Cadastro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="117dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="238dp"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/imagem"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="49dp" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingBottom="10dp"
+            />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Nome:"
+        android:inputType="textPersonName"
+        android:textColor="#a5c638"
+        android:textColorHighlight="#a5c638"
+        android:textColorHint="#a5c638"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+        <TextView
+            android:id="@+id/textView550"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10dp"
+            android:textColor="#a5c638"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="E-mail:"
+            android:inputType="textEmailAddress"
+            android:textColor="#a5c638"
+            android:textColorHighlight="#a5c638"
+            android:textColorHint="#a5c638"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+        <TextView
+            android:id="@+id/textView5500"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10dp"
+            android:textColor="#a5c638"
+            android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Senha:"
+        android:inputType="textPassword"
+        android:textColor="#a5c638"
+        android:textColorHighlight="#a5c638"
+        android:textColorHint="#a5c638"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+        android:id="@+id/button3"
+        android:layout_width="202dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#a5c638"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Cadastrar"
+            android:onClick="cadastrar"
+        android:textColor="#585858"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+        <TextView
+            android:id="@+id/textView903"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingBottom="2dp"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#80a5c638"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="entro"
+            android:text="Entrar sem conta"
+            android:textColor="#585858"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+        <TextView
+            android:id="@+id/textView93"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingBottom="2dp"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

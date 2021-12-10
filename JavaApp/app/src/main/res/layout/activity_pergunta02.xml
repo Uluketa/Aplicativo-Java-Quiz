@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#585858"
+    tools:context=".pergunta02">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        h<ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="223dp"
+        android:layout_height="174dp"
+        app:srcCompat="@drawable/imagem" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2 - Dentre as palavras abaixo, quais apresentam a ideia de antônimos da palavra BREAK?"
+            android:textColor="#a5c638"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#a5c638"
+            android:fontFamily="@font/poppins_semibold"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="164dp"
+            android:paddingBottom="20dp"/>
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:onClick="errada"
+            android:text="Boolean"
+            android:textColor="#585858"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:backgroundTint="#70a5c638"
+            android:fontFamily="@font/poppins_semibold"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="502dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:text="Continue"
+            tools:layout_editor_absoluteX="16dp"
+            android:textColor="#585858"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:onClick="certo"
+            android:backgroundTint="#70a5c638"
+            android:fontFamily="@font/poppins_semibold"
+            tools:layout_editor_absoluteY="323dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:text="Default"
+            tools:layout_editor_absoluteX="32dp"
+            android:textColor="#585858"
+            android:onClick="errada"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:backgroundTint="#70a5c638"
+            android:fontFamily="@font/poppins_semibold"
+            tools:layout_editor_absoluteY="600dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#70a5c638"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="errada"
+            android:text="example"
+            android:textColor="#585858"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="412dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

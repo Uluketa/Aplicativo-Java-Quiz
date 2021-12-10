@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.javaapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/projeto4"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JavaApp" >
+        <activity
+            android:name=".pont"
+            android:exported="false" />
+        <activity
+            android:name=".telafinalnotai"
+            android:exported="false" />
+        <activity
+            android:name=".telafinal4e3"
+            android:exported="false" />
+        <activity
+            android:name=".telafinal6e5"
+            android:exported="false" />
+        <activity
+            android:name=".telafinal"
+            android:exported="false" />
+        <activity
+            android:name=".pergunta07"
+            android:exported="false" />
+        <activity
+            android:name=".pergunta06"
+            android:exported="false" />
+        <activity
+            android:name=".pergunta05"
+            android:exported="false" />
+        <activity
+            android:name=".pergunta04"
+            android:exported="false" />
+        <activity
+            android:name=".pergunta03"
+            android:exported="false" />
+        <activity
+            android:name=".pergunta02"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+
+        <activity
+            android:name=".Cadastro"
+            android:exported="true"
+            android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".pergunta01"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>

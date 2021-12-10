@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#585858"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="117dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="228dp"
+            android:layout_height="252dp"
+            android:paddingBottom="60dp"
+            app:srcCompat="@drawable/imagem"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="270dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="E-mail:"
+        android:inputType="textEmailAddress"
+        android:textColor="#a5c638"
+        android:textColorHighlight="#a5c638"
+        android:textColorHint="#a5c638"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="270dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Senha:"
+        android:inputType="textPassword"
+        android:textColor="#a5c638"
+        android:textColorHighlight="#a5c638"
+        android:textColorHint="#a5c638"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingBottom="30dp"
+            />
+
+        <Button
+        android:id="@+id/button3"
+        android:layout_width="202dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#a5c638"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Entrar"
+            android:onClick="entrar"
+        android:textColor="#585858"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="284dp"
+            android:layout_height="42dp"
+            android:backgroundTint="#80a5c638"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="cadastro"
+            android:text="Não tenho uma conta"
+            android:textColor="#585858"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="492dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
